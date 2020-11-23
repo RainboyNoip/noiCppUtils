@@ -20,3 +20,4 @@ clean:
 
 test:
 	$(cc) -L. -Iinclude test.cpp -lnoicpputils -o test
+	./test
